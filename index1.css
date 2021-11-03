@@ -1,0 +1,160 @@
+  @font-face {font-family: 'iconfont';
+        src: url('fonts/iconfont.eot');
+        src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/iconfont.woff') format('woff'),
+        url('fonts/iconfont.ttf') format('truetype'),
+        url('fonts/iconfont.svg#iconfont') format('svg');
+}
+  .iconfont{
+        font-family:"iconfont" !important;
+        font-size:16px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;}
+    *{
+        margin: 0;
+        padding: 0;
+        bottom: 0;
+        font-size: 100%;
+        font: inherit;
+    }
+    .content{
+        position: relative;
+        width: 632px;
+        margin: 0 auto;
+        padding: 20px 0;
+        /* 上下内边距0  左右内边距20px */
+        border-radius: 4px 4px 0 0; 
+    }
+    .log_select span{
+        height: 18px;
+        padding: 0 24px;
+        display: inline-block;
+    }
+    .log_select span:first-child{
+        margin-right: 20px;
+    }
+    .chick{
+        padding: 20px 0px 18px 0px !important;
+        font-weight: 700;
+        border-bottom: #0084FF solid;
+    }
+    .ewm{
+        position: absolute;
+        width: 52px;
+        top: 0;
+        right: 0;
+    }
+    .log_form{
+        position: relative;
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .log_form input:not([type=submit]){
+        width: 100%;
+        height: 42px;
+        border: none;
+        border-bottom: 1px rgba(0, 0, 0, .1) solid;
+        outline: none;
+        margin: 7px 0;
+        font-size: 14px;
+    }
+    .log_form img{
+        position: absolute;
+        right:24px;
+        top: 100px;
+    }
+    .log_form div{
+        padding: 5px 0;
+        text-decoration: none;
+    }
+    .log_form div a{
+        text-decoration: none;
+        font-style: 0.9em;
+        color: #175199;
+    }
+    .log_form div .word{
+        float: right;
+        color: #8792a8;
+    }
+    .log_form input[type=submit]{
+        width: 586px;
+        height: 36px;
+        border: none;
+        background-color: #8884FF;
+        color: #fff;
+        margin-top: 30px;
+        font-style: 14px;
+    }
+    .log_buttom{
+        height: 26px;
+        /* width: 80px; */
+        margin-top: 15px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding: 28px 24px;
+        font-size: 14px;
+        letter-spacing: 6px;
+        border-bottom: 1px rgba(0, 0, 0, .1) solid;
+    }
+    .log_buttom a{
+        text-decoration: none;
+    }
+    .log_social{
+       height: 16px;
+       padding: 22px 24px;
+    }
+    .log_social .social{
+        float: left;
+    }
+    .log_social .soft{
+        float: right;
+        height: 16px;
+        line-height: 16px;
+    }
+    .log_social .soft a{
+        display: inline-block;
+        margin: 0 6px;
+        color: #8A95AA;
+        text-decoration: none;
+    }
+    .log_social .soft a{
+        /* 让图片和他旁边的文字垂直居中 */
+        vertical-align: middle;  
+    }
+    .log_social .soft a .wx{
+        color: #60c84d;
+    }
+    .log_social .soft a .qq{
+        color: #50c8fd;
+    }
+    .log_social .soft a .wb{
+        color: #fb6622;
+    }
+    .log_other{
+       position: relative;
+       width: 632px;
+       height: 80px;
+       background-color: #F6F6F6;
+       margin-top: 20px;
+    }
+    .log_other .jg{
+       position: absolute;
+        top: 28px;
+        left: 24px;
+        text-decoration: none;
+    }
+    .log_other .jg img{
+        vertical-align: middle; 
+    }
+    .log_other .zh{
+        position: absolute;
+        color: #018fff;
+        top: 28px;
+        right: 24px;
+        text-decoration: none;
+    }
+    .log_other .zh img{
+        vertical-align: middle; 
+    }
